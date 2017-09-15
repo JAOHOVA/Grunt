@@ -31,9 +31,10 @@ watch: {
 
 browserSync: {
     bsFiles: {
-        src : ['src/javascript/*.js','src/scss/*.scss','src/*.html']
+        src : ['src/javascript/*.js','src/css/*.css','src/*.html']
     },
     options: {
+      watchTask:true,
         server: {
             baseDir: "./src/"
         }
